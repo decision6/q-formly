@@ -1,5 +1,5 @@
 <script>
-  import { QBtn } from 'quasar'
+  import { QBtn } from 'quasar-framework'
   import { has } from 'lodash'
 
   export default {

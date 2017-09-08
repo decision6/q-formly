@@ -1,5 +1,5 @@
 {
-  "name": "q-formly",
+  "name": "@decision6/q-formly",
   "version": "1.0.0",
   "main": "src/index.js",
   "author": "D6 Team <tecnologia@decision6.com>",
@@ -11,7 +11,7 @@
     "vue-formly": "^2.4.6"
   },
   "dependencies": {
-    "vue-formly-quasar": "^1.0.0",
+    "@decision6/vue-formly-quasar": "^1.0.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {

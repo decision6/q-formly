@@ -1,4 +1,4 @@
-import FormComponent from './src/form'
+import FormComponent from './form'
 
 /**
  * Install plugin for formly

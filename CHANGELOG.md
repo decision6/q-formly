@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0] - Firts Release
+## [1.0.0] - Firts Release - 2017-09-08
 
 + Create `QFormly` component.
+
+## [1.1.0] - 2017-09-08
+
++ [ fix ] - fix import on `index.js`
++ [ fix ] - update webpack.config.js

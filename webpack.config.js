@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 const version = require('./package.json').version
 
-const banner = 'VueFormlyQuasar v' + version + '\n' +
+const banner = 'QFormly v' + version + '\n' +
                '(c) 2017 Decision6 Team\n' +
                'Released under the MIT License.'
 
@@ -42,8 +42,8 @@ module.exports = [
     entry: path.resolve(__dirname, 'src/index'),
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'vue-formly-quasar.js',
-      library: 'VueFormlyQuasar',
+      filename: 'q-formly.js',
+      library: 'QFormly',
       libraryTarget: 'umd'
     },
     module: common.module,
@@ -61,8 +61,8 @@ module.exports = [
     entry: path.resolve(__dirname, 'src/index'),
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'vue-formly-quasar.min.js',
-      library: 'VueFormlyQuasar',
+      filename: 'q-formly.min.js',
+      library: 'QFormly',
       libraryTarget: 'umd'
     },
     module: common.module,

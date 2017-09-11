@@ -42,14 +42,16 @@
     },
     methods: {
       submitForm () {
-        this.$emit('submit', this.model)
+        if (this.isFormValid) {
+          this.$emit('submit', this.model)
+        }
       }
     }
   }
 </script>
 
 <template lang="html">
-  <form @submit.prevent="submitForm">
+  <form @submit.prevent="">
     <formly-form
       class="app-form"
       :form="form"
@@ -60,7 +62,8 @@
       :icon="confirmButton.icon"
       color="primary"
       :disabled="!isFormValid"
-      big> {{ confirmButton.text }} </q-btn>
+      big
+      @click="submitForm"> {{ confirmButton.text }} </q-btn>
   </form>
 </template>
 

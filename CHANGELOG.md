@@ -10,3 +10,7 @@ All notable changes to this project will be documented in this file.
 
 + [ fix ] - fix import on `index.js`
 + [ fix ] - update webpack.config.js
+
+## [1.2.0] - 2017-09-15
+
++ [ update ] Changed property on confirmButton: to `text` from `label`

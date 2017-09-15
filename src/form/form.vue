@@ -1,6 +1,5 @@
 <script>
   import { QBtn } from 'quasar-framework'
-  import { has } from 'lodash'
 
   export default {
     name: 'q-formly',
@@ -8,9 +7,7 @@
     props: {
       confirmButton: {
         type: Object,
-        validator (value) {
-          return has(value, 'text')
-        }
+        required: true
       },
       model: {
         type: Object,
@@ -28,9 +25,6 @@
       }
     },
     computed: {
-      confirmButtonm () {
-        return this.actionsButtons[0]
-      },
       isFormValid () {
         return this.form.$valid
       }
@@ -63,7 +57,7 @@
       color="primary"
       :disabled="!isFormValid"
       big
-      @click="submitForm"> {{ confirmButton.text }} </q-btn>
+      @click="submitForm"> {{ confirmButton.label }} </q-btn>
   </form>
 </template>
 

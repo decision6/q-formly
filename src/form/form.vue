@@ -6,8 +6,7 @@
     components: { QBtn },
     props: {
       confirmButton: {
-        type: Object,
-        required: true
+        type: Object
       },
       model: {
         type: Object,
@@ -22,6 +21,12 @@
           return { fields: [] }
         },
         required: true
+      },
+      hasButton: {
+        type: Boolean,
+        default () {
+          return true
+        }
       }
     },
     computed: {
@@ -45,7 +50,7 @@
 </script>
 
 <template lang="html">
-  <form @submit.prevent="">
+  <form @submit.prevent="submitForm">
     <formly-form
       class="app-form"
       :form="form"
@@ -56,13 +61,15 @@
       :icon="confirmButton.icon"
       color="primary"
       :disabled="!isFormValid"
-      big
-      @click="submitForm"> {{ confirmButton.label }} </q-btn>
+      v-if="hasButton"
+      big> {{ confirmButton.label }} </q-btn>
   </form>
 </template>
 
 <style lang="css" scoped>
   .app-form {
     border: none;
+    padding-left: 0;
+    padding-right: 0;
   }
 </style>

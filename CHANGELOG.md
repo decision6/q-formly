@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2018-02-08
+
+- [ update ] deps
+
 ## [1.0.0] - Firts Release - 2017-09-08
 
 + Create `QFormly` component.

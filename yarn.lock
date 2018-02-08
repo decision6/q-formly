@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@decision6/vue-formly-quasar@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/@decision6/vue-formly-quasar/-/vue-formly-quasar-1.3.0.tgz#7a72fe33eaa924f98ad5815ffd4ae221b23ebccc"
+"@decision6/vue-formly-quasar@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/@decision6/vue-formly-quasar/-/vue-formly-quasar-1.4.0.tgz#417cd596b3794434df15991fba203b6380bf6417"
   dependencies:
     lodash "^4.17.4"
     ramda "^0.24.1"

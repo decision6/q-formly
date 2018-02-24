@@ -1,7 +1,7 @@
 {
   "name": "@decision6/q-formly",
-  "version": "1.2.0",
-  "main": "src/index.js",
+  "version": "2.0.0",
+  "main": "dist/q-formly.js",
   "author": "D6 Team <tecnologia@decision6.com>",
   "license": "MIT",
   "description": "A wrapper for vue-formly-quasar theme",

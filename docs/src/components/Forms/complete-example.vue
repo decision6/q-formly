@@ -73,18 +73,20 @@ export default {
             field: {
               icon: 'person'
             },
-            type: 'radio',
-            inline: true,
-            options: [
-              {
-                value: 'M',
-                label: 'Male'
-              },
-              {
-                value: 'F',
-                label: 'Female'
-              }
-            ]
+            option_group: {
+              type: 'radio',
+              inline: true,
+              options: [
+                {
+                  value: 'M',
+                  label: 'Male'
+                },
+                {
+                  value: 'F',
+                  label: 'Female'
+                }
+              ]
+            }
           }
         },
         {
@@ -94,7 +96,7 @@ export default {
             field: {
               icon: 'business'
             },
-            input: {
+            select: {
               'float-label': 'Works at',
               color: 'secondary',
               inverted: true,

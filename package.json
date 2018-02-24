@@ -6,7 +6,11 @@
   "license": "MIT",
   "description": "A wrapper for vue-formly-quasar theme",
   "scripts": {
-    "build": "webpack -p"
+    "prepare": "rm -rf dist && npm run build",
+    "build": "webpack -p",
+    "docs:dev": "cd docs; npm run dev",
+    "docs:build": "cd docs; npm run build",
+    "docs:deploy": "cd docs; npm run build; npm run deploy"
   },
   "peerDependencies": {
     "quasar-framework": "^0.14.2",

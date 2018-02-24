@@ -73,6 +73,7 @@ export default {
 |:----------------:|:-------:|:--------:|:-------------------------------------------------:|
 |       model      |  Object |    yes   |                     Form model                    |
 |      fields      |  Array  |    yes   | An array of objects with each field on your form. |
+|      form        |  Object |    no    | An object that will be receive form controls props from formly plugin, like $valid an error object. |
 | forceFormDisable | Boolean |    no    |             Force disable save button             |
 
 ### Events

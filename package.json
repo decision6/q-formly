@@ -6,7 +6,11 @@
   "license": "MIT",
   "description": "A wrapper for vue-formly-quasar theme",
   "scripts": {
-    "build": "./node_modules/.bin/webpack"
+    "prepare": "rm -rf dist && npm run build",
+    "build": "webpack -p",
+    "docs:dev": "cd docs; npm run dev",
+    "docs:build": "cd docs; npm run build",
+    "docs:deploy": "cd docs; npm run build; npm run deploy"
   },
   "peerDependencies": {
     "quasar-framework": "^0.14.2",
@@ -14,7 +18,7 @@
     "vue-formly": "^2.4.6"
   },
   "dependencies": {
-    "@decision6/vue-formly-quasar": "^1.4.0",
+    "@decision6/vue-formly-quasar": "^2.1.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
@@ -23,8 +27,11 @@
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "css-loader": "^0.28.7",
+    "css-loader": "^0.28.10",
     "eslint-loader": "^1.9.0",
+    "quasar-framework": "^0.14.9",
+    "vue": "^2.5.13",
+    "vue-formly": "^2.5.7",
     "vue-loader": "^13.0.4",
     "vue-template-compiler": "^2.4.2",
     "webpack": "^3.5.6"

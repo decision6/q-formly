@@ -1,7 +1,7 @@
 import FormComponent from './form'
 
 /**
- * Install plugin for formly
+ * Install plugin for QFormly
  * @param  {Object} Vue vue instance
  */
 export default (Vue) => {

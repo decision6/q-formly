@@ -11,7 +11,7 @@ const FormComponent = (h, submit, children) => {
 const FormlyComponent = (h, context) => {
   return h('formly-form', {
     props: {
-      form: context.form,
+      form: context.internalForm,
       model: context.model,
       fields: context.fields
     },
@@ -59,6 +59,10 @@ export default {
       type: Boolean,
       default: false
     },
+    form: {
+      type: Object,
+      default: () => ({})
+    },
     model: {
       type: Object,
       default: () => ({}),
@@ -70,17 +74,23 @@ export default {
       required: true
     }
   },
+  data: () => ({
+    internalForm: {}
+  }),
+  watch: {
+    internalForm: {
+      handler () {
+        this.updateForm(this.internalForm)
+      },
+      deep: true
+    }
+  },
   computed: {
     isFormValid () {
-      return this.form.$valid
+      return this.internalForm.$valid
     },
     isBtnSaveDisable () {
       return this.isFormValid || this.forceBtnSaveDisable
-    }
-  },
-  data () {
-    return {
-      form: {}
     }
   },
   methods: {
@@ -95,6 +105,9 @@ export default {
     onClear () {
       this.$emit('clear')
       event.preventDefault()
+    },
+    updateForm (value) {
+      this.$emit('update:form', Object.assign({}, value))
     }
   },
   render (h) {

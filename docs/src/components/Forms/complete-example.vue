@@ -145,6 +145,7 @@ export default {
       :forceFormDisable="formDisable"
       :model="model"
       :fields="fields"
+      :form.sync="form"
       @clear="onClear"
       @submit="onSave" />
   </div>

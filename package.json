@@ -1,6 +1,6 @@
 {
   "name": "@decision6/q-formly",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "dist/q-formly.js",
   "author": "D6 Team <tecnologia@decision6.com>",
   "license": "MIT",

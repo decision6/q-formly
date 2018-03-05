@@ -7,6 +7,9 @@ const banner = 'QFormly v' + version + '\n' +
                'Released under the MIT License.'
 
 const common = {
+  externals: {
+    'quasar-framework': 'quasar-framework'
+  },
   module: {
     rules: [
       {
@@ -47,6 +50,7 @@ module.exports = [
       library: 'QFormly',
       libraryTarget: 'umd'
     },
+    externals: common.externals,
     module: common.module,
     plugins: [
       ...common.plugins,
@@ -66,6 +70,7 @@ module.exports = [
       library: 'QFormly',
       libraryTarget: 'umd'
     },
+    externals: common.externals,
     module: common.module,
     plugins: [
       ...common.plugins,

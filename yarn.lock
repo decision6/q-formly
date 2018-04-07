@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@decision6/vue-formly-quasar@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@decision6/vue-formly-quasar/-/vue-formly-quasar-2.1.0.tgz#4d6f441ef709593acdd0df17c7191d8ca953f41a"
+"@decision6/vue-formly-quasar@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@decision6/vue-formly-quasar/-/vue-formly-quasar-3.0.0.tgz#e306491493496d15995fc3a75b9f971f861acd20"
   dependencies:
     lodash "^4.17.4"
     ramda "^0.24.1"
@@ -320,9 +320,9 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-loader@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.2.tgz#f6cbe122710f1aa2af4d881c6d5b54358ca24126"
+babel-loader@^7.1.4:
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
   dependencies:
     find-cache-dir "^1.0.0"
     loader-utils "^1.0.2"
@@ -1073,9 +1073,9 @@ css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
-css-loader@^0.28.10:
-  version "0.28.10"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.10.tgz#40282e79230f7bcb4e483efa631d670b735ebf42"
+css-loader@^0.28.11:
+  version "0.28.11"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.11.tgz#c3f9864a700be2711bb5a2462b2389b1a392dab7"
   dependencies:
     babel-code-frame "^6.26.0"
     css-selector-tokenizer "^0.7.0"
@@ -1341,9 +1341,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-loader@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-1.9.0.tgz#7e1be9feddca328d3dcfaef1ad49d5beffe83a13"
+eslint-loader@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-2.0.0.tgz#d136619b5c684e36531ffc28c60a56e404608f5d"
   dependencies:
     loader-fs-cache "^1.0.0"
     loader-utils "^1.0.2"
@@ -2774,9 +2774,9 @@ qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.npmjs.org/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
-quasar-framework@^0.14.9:
-  version "0.14.9"
-  resolved "https://registry.yarnpkg.com/quasar-framework/-/quasar-framework-0.14.9.tgz#d04c0f642aef8b35f6366695c5b4fc08bfcf68c1"
+quasar-framework@^0.15.10:
+  version "0.15.10"
+  resolved "https://registry.yarnpkg.com/quasar-framework/-/quasar-framework-0.15.10.tgz#fe688442d005d4c9370c7aff9c79c4577ddd64e8"
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -3369,9 +3369,9 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-formly@^2.5.7:
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/vue-formly/-/vue-formly-2.5.7.tgz#30ecb9b383d9e8c4347a27c13a7eeff0d1b53c7f"
+vue-formly@^2.5.8:
+  version "2.5.8"
+  resolved "https://registry.yarnpkg.com/vue-formly/-/vue-formly-2.5.8.tgz#f1dbf4f4df23afd0c0f941ddd7fe0ce195750575"
   dependencies:
     babel-runtime "^6.23.0"
     vue "^2.2.6"
@@ -3416,9 +3416,13 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.2.6, vue@^2.5.13:
+vue@^2.2.6:
   version "2.5.13"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.13.tgz#95bd31e20efcf7a7f39239c9aa6787ce8cf578e1"
+
+vue@^2.5.16:
+  version "2.5.16"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
 
 watchpack@^1.4.0:
   version "1.4.0"

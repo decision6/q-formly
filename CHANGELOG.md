@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2018-04-07
+- [ update ] upgrade deps to:
+  - Quasar 0.15.x
+  - Vue 2.5.x
+  - VueFormly 2.5.x
+
 ## [2.1.0] - 2018-03-05
 - [ fix ]    fix big bundlers
 - [ update ] `main` configuration on `package.json`

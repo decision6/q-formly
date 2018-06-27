@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.0] - 2018-06-27
+- uploading version to follow vue-formly-quasar (4.0.0)
+
 ## [3.0.0] - 2018-04-07
 - [ update ] upgrade deps to:
   - Quasar 0.15.x

@@ -8,7 +8,7 @@ const banner = 'QFormly v' + version + '\n' +
 
 const common = {
   externals: {
-    'quasar-framework': 'quasar-framework'
+    quasar: 'quasar-framework'
   },
   module: {
     rules: [

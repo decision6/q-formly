@@ -13,27 +13,27 @@
     "docs:deploy": "cd docs; npm run build; npm run deploy"
   },
   "peerDependencies": {
-    "quasar-framework": "^0.15.10",
-    "vue": "^2.5.16",
+    "quasar-framework": "^0.17.7",
+    "vue": "^2.5.17",
     "vue-formly": "^2.5.8"
   },
   "dependencies": {
-    "@decision6/vue-formly-quasar": "^4.1.0",
+    "@decision6/vue-formly-quasar": "^5.0.0",
     "lodash": "^4.17.10"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
+    "babel-loader": "^7.1.5",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "css-loader": "^0.28.11",
-    "eslint-loader": "^2.0.0",
-    "quasar-framework": "^0.16.0",
-    "vue": "^2.5.16",
+    "css-loader": "^1.0.0",
+    "eslint-loader": "^2.1.0",
+    "quasar-framework": "^0.17.7",
+    "vue": "^2.5.17",
     "vue-formly": "^2.5.8",
-    "vue-loader": "^15.2.4",
-    "vue-template-compiler": "^2.5.16",
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.17",
     "webpack": "^3.5.6"
   }
 }

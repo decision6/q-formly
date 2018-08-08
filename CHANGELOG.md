@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.0] - 2018-08-08
+- [ update ] upgrade deps to:
+  - Quasar 0.17.7
+  - Vue 2.5.17
+
 ## [4.1.0] - 2018-06-27
 - fix externals config and update vue-formly-quasar (4.1.0)
 
